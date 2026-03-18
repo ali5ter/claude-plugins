@@ -1,0 +1,45 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "ali5ter",
+  "description": "Personal Claude Code plugin marketplace for ali5ter plugins",
+  "owner": {
+    "name": "Alister Lewis-Bowen",
+    "url": "https://github.com/ali5ter"
+  },
+  "plugins": [
+    {
+      "name": "over-50s-health-advisor",
+      "description": "Evidence-based health, fitness, nutrition, and longevity guidance for adults 50+",
+      "version": "3.0.0",
+      "author": {
+        "name": "Alister Lewis-Bowen",
+        "url": "https://github.com/ali5ter"
+      },
+      "source": {
+        "source": "github",
+        "repo": "ali5ter/over-50s-health-advisor"
+      },
+      "category": "productivity",
+      "license": "MIT",
+      "keywords": ["health", "fitness", "nutrition", "longevity", "50+"],
+      "homepage": "https://github.com/ali5ter/over-50s-health-advisor"
+    },
+    {
+      "name": "obsidian-project-documentation-assistant",
+      "description": "Automatically documents technical projects in Obsidian vaults during Claude Code sessions",
+      "version": "3.0.1",
+      "author": {
+        "name": "Alister Lewis-Bowen",
+        "url": "https://github.com/ali5ter"
+      },
+      "source": {
+        "source": "github",
+        "repo": "ali5ter/obsidian-project-assistant"
+      },
+      "category": "productivity",
+      "license": "MIT",
+      "keywords": ["obsidian", "documentation", "notes", "projects"],
+      "homepage": "https://github.com/ali5ter/obsidian-project-assistant"
+    }
+  ]
+}
