@@ -40,6 +40,23 @@
       "license": "MIT",
       "keywords": ["obsidian", "documentation", "notes", "projects"],
       "homepage": "https://github.com/ali5ter/obsidian-project-assistant"
+    },
+    {
+      "name": "pair-programmer",
+      "description": "Graduated assistance framework to prevent skill atrophy when coding with AI",
+      "version": "1.0.0",
+      "author": {
+        "name": "Alister Lewis-Bowen",
+        "url": "https://github.com/ali5ter"
+      },
+      "source": {
+        "source": "github",
+        "repo": "ali5ter/pair-programmer"
+      },
+      "category": "productivity",
+      "license": "MIT",
+      "keywords": ["pair-programming", "coding", "skill-development", "graduated-assistance"],
+      "homepage": "https://github.com/ali5ter/pair-programmer"
     }
   ]
 }
