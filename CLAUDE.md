@@ -2,8 +2,8 @@
 
 ## Project Status
 
-Active. The marketplace is a thin catalog repo referencing plugin source repos
-via `.claude-plugin/marketplace.json`.
+Live at <https://github.com/ali5ter/claude-plugins>. Tested and working locally.
+Both plugins install successfully via `/plugin install`.
 
 ## Purpose
 
@@ -46,9 +46,10 @@ the `github` source type in production (e.g., `browserbase/agent-browse`).
 ## Adding a New Plugin
 
 1. Ensure the plugin's repo has `.claude-plugin/plugin.json` at its root.
-2. Add an entry to `.claude-plugin/marketplace.json` following the existing schema.
-3. Update the plugin table in `README.md` and this file.
-4. Commit and push.
+2. Remove `.claude-plugin/marketplace.json` from the plugin repo if present (no longer needed).
+3. Add an entry to `.claude-plugin/marketplace.json` in this repo following the existing schema.
+4. Update the plugin table in `README.md` and this file.
+5. Commit and push.
 
 ## Local Settings
 
@@ -63,3 +64,7 @@ the `github` source type in production (e.g., `browserbase/agent-browse`).
   }
 }
 ```
+
+`~/.claude/plugins/marketplaces/ali5ter` is symlinked to the local project directory
+for development. When Claude Code clones the marketplace from GitHub, it will replace
+the symlink with a real clone.
