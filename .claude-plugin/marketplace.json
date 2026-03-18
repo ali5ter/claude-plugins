@@ -8,9 +8,9 @@
   },
   "plugins": [
     {
-      "name": "over-50s-health-advisor",
+      "name": "over-50s-health",
       "description": "Evidence-based health, fitness, nutrition, and longevity guidance for adults 50+",
-      "version": "3.0.0",
+      "version": "3.1.0",
       "author": {
         "name": "Alister Lewis-Bowen",
         "url": "https://github.com/ali5ter"

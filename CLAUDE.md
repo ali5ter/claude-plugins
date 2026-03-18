@@ -32,14 +32,14 @@ the `github` source type in production (e.g., `browserbase/agent-browse`).
 
 | Plugin | Source Repo | Version |
 |---|---|---|
-| `over-50s-health-advisor` | `ali5ter/over-50s-health-advisor` | 3.0.0 |
+| `over-50s-health` | `ali5ter/over-50s-health-advisor` | 3.1.0 |
 | `obsidian-project-documentation` | `ali5ter/obsidian-project-assistant` | 3.1.0 |
 
 ## Install Commands
 
 ```text
 /plugin marketplace add ali5ter/claude-plugins
-/plugin install over-50s-health-advisor@ali5ter
+/plugin install over-50s-health@ali5ter
 /plugin install obsidian-project-documentation@ali5ter
 ```
 

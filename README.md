@@ -7,7 +7,7 @@ Personal [Claude Code](https://claude.ai/code) plugin marketplace for plugins ma
 
 | Plugin | Version | Description |
 |---|---|---|
-| [over-50s-health-advisor](https://github.com/ali5ter/over-50s-health-advisor) | 3.0.0 | Evidence-based health, fitness, nutrition, and longevity guidance for adults 50+ |
+| [over-50s-health](https://github.com/ali5ter/over-50s-health-advisor) | 3.1.0 | Evidence-based health, fitness, nutrition, and longevity guidance for adults 50+ |
 | [obsidian-project-documentation](https://github.com/ali5ter/obsidian-project-assistant) | 3.1.0 | Automatically documents technical projects in Obsidian vaults during Claude Code sessions |
 
 ## Usage
@@ -21,14 +21,14 @@ Personal [Claude Code](https://claude.ai/code) plugin marketplace for plugins ma
 ### Install plugins
 
 ```text
-/plugin install over-50s-health-advisor@ali5ter
+/plugin install over-50s-health@ali5ter
 /plugin install obsidian-project-documentation@ali5ter
 ```
 
 ### Update plugins
 
 ```text
-/plugin update over-50s-health-advisor@ali5ter
+/plugin update over-50s-health@ali5ter
 /plugin update obsidian-project-documentation@ali5ter
 ```
 
