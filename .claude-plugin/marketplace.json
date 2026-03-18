@@ -25,9 +25,9 @@
       "homepage": "https://github.com/ali5ter/over-50s-health-advisor"
     },
     {
-      "name": "obsidian-project-documentation-assistant",
+      "name": "obsidian-project-documentation",
       "description": "Automatically documents technical projects in Obsidian vaults during Claude Code sessions",
-      "version": "3.0.1",
+      "version": "3.1.0",
       "author": {
         "name": "Alister Lewis-Bowen",
         "url": "https://github.com/ali5ter"
