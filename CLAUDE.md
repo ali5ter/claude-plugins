@@ -50,6 +50,9 @@ the `github` source type in production (e.g., `browserbase/agent-browse`).
 3. Add an entry to `.claude-plugin/marketplace.json` in this repo following the existing schema.
 4. Update the plugin table in `README.md` and this file.
 5. Commit and push.
+6. Run `/plugin marketplace update ali5ter` in Claude Code before installing — the plugin
+   installer uses a cached copy of the catalog and will not see new or renamed plugins without
+   an explicit update.
 
 ## Local Settings
 
