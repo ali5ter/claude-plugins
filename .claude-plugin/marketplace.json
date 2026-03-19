@@ -57,6 +57,23 @@
       "license": "MIT",
       "keywords": ["pair-programming", "coding", "skill-development", "graduated-assistance"],
       "homepage": "https://github.com/ali5ter/pair-programmer"
+    },
+    {
+      "name": "cli-ux-tester",
+      "description": "Expert UX evaluator for command-line interfaces, CLIs, terminal tools, shell scripts, and developer APIs",
+      "version": "2.0.0",
+      "author": {
+        "name": "Alister Lewis-Bowen",
+        "url": "https://github.com/ali5ter"
+      },
+      "source": {
+        "source": "github",
+        "repo": "ali5ter/claude-cli-ux-skill"
+      },
+      "category": "productivity",
+      "license": "MIT",
+      "keywords": ["CLI", "UX", "testing", "developer-experience", "terminal", "usability"],
+      "homepage": "https://github.com/ali5ter/claude-cli-ux-skill"
     }
   ]
 }
