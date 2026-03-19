@@ -61,7 +61,7 @@
     {
       "name": "cli-ux-tester",
       "description": "Expert UX evaluator for command-line interfaces, CLIs, terminal tools, shell scripts, and developer APIs",
-      "version": "2.0.0",
+      "version": "2.1.0",
       "author": {
         "name": "Alister Lewis-Bowen",
         "url": "https://github.com/ali5ter"
