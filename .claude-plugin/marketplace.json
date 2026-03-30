@@ -10,7 +10,7 @@
     {
       "name": "over-50s-health",
       "description": "Evidence-based health, fitness, nutrition, and longevity guidance for adults 50+",
-      "version": "3.1.0",
+      "version": "3.2.0",
       "author": {
         "name": "Alister Lewis-Bowen",
         "url": "https://github.com/ali5ter"
@@ -21,7 +21,13 @@
       },
       "category": "productivity",
       "license": "MIT",
-      "keywords": ["health", "fitness", "nutrition", "longevity", "50+"],
+      "keywords": [
+        "health",
+        "fitness",
+        "nutrition",
+        "longevity",
+        "50+"
+      ],
       "homepage": "https://github.com/ali5ter/over-50s-health-advisor"
     },
     {
@@ -38,7 +44,12 @@
       },
       "category": "productivity",
       "license": "MIT",
-      "keywords": ["obsidian", "documentation", "notes", "projects"],
+      "keywords": [
+        "obsidian",
+        "documentation",
+        "notes",
+        "projects"
+      ],
       "homepage": "https://github.com/ali5ter/obsidian-project-assistant"
     },
     {
@@ -55,7 +66,12 @@
       },
       "category": "productivity",
       "license": "MIT",
-      "keywords": ["pair-programming", "coding", "skill-development", "graduated-assistance"],
+      "keywords": [
+        "pair-programming",
+        "coding",
+        "skill-development",
+        "graduated-assistance"
+      ],
       "homepage": "https://github.com/ali5ter/pair-programmer"
     },
     {
@@ -72,7 +88,14 @@
       },
       "category": "productivity",
       "license": "MIT",
-      "keywords": ["CLI", "UX", "testing", "developer-experience", "terminal", "usability"],
+      "keywords": [
+        "CLI",
+        "UX",
+        "testing",
+        "developer-experience",
+        "terminal",
+        "usability"
+      ],
       "homepage": "https://github.com/ali5ter/claude-cli-ux-skill"
     }
   ]
