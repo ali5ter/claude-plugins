@@ -30,12 +30,14 @@ the `github` source type in production (e.g., `browserbase/agent-browse`).
 
 ## Registered Plugins
 
-| Plugin | Source Repo | Version |
-|---|---|---|
-| `cli-ux-tester` | `ali5ter/claude-cli-ux-skill` | 3.0.0 |
-| `obsidian-project-documentation` | `ali5ter/obsidian-project-assistant` | 3.2.0 |
-| `over-50s-health` | `ali5ter/over-50s-health-advisor` | 3.2.0 |
-| `pair-programmer` | `ali5ter/pair-programmer` | 1.0.0 |
+Versions are maintained in `.claude-plugin/marketplace.json` (source of truth) and `README.md`.
+
+| Plugin | Source Repo |
+|---|---|
+| `cli-ux-tester` | `ali5ter/claude-cli-ux-skill` |
+| `obsidian-project-documentation` | `ali5ter/obsidian-project-assistant` |
+| `over-50s-health` | `ali5ter/over-50s-health-advisor` |
+| `pair-programmer` | `ali5ter/pair-programmer` |
 
 ## Install Commands
 
@@ -52,7 +54,7 @@ the `github` source type in production (e.g., `browserbase/agent-browse`).
 1. Ensure the plugin's repo has `.claude-plugin/plugin.json` at its root.
 2. Remove `.claude-plugin/marketplace.json` from the plugin repo if present (no longer needed).
 3. Add an entry to `.claude-plugin/marketplace.json` in this repo following the existing schema.
-4. Update the plugin table in `README.md` and this file.
+4. Update the plugin table in `README.md`.
 5. Commit and push.
 6. Run `/plugin marketplace update ali5ter` in Claude Code before installing — the plugin
    installer uses a cached copy of the catalog and will not see new or renamed plugins without
