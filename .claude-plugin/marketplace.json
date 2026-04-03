@@ -76,8 +76,8 @@
     },
     {
       "name": "cli-ux-tester",
-      "description": "Expert UX evaluator for command-line interfaces, CLIs, terminal tools, shell scripts, and developer APIs",
-      "version": "3.0.0",
+      "description": "Expert UX evaluator for CLIs and developer APIs. Rates usability across 11 criteria with parallel evaluation agents and persistent cross-evaluation memory.",
+      "version": "3.1.0",
       "author": {
         "name": "Alister Lewis-Bowen",
         "url": "https://github.com/ali5ter"
