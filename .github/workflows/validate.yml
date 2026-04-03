@@ -1,0 +1,84 @@
+name: Validate
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Validate marketplace.json structure
+        run: |
+          CATALOG=".claude-plugin/marketplace.json"
+          ERRORS=0
+
+          # Required top-level fields
+          for field in name description owner plugins; do
+            if ! jq -e ".$field" "$CATALOG" > /dev/null 2>&1; then
+              echo "ERROR: Missing required top-level field: $field"
+              ERRORS=$((ERRORS + 1))
+            fi
+          done
+
+          # Required fields for each plugin entry
+          PLUGIN_COUNT=$(jq '.plugins | length' "$CATALOG")
+          for i in $(seq 0 $((PLUGIN_COUNT - 1))); do
+            NAME=$(jq -r ".plugins[$i].name" "$CATALOG")
+            for field in name description version author source category license keywords homepage; do
+              VALUE=$(jq -r ".plugins[$i].$field" "$CATALOG")
+              if [ "$VALUE" = "null" ] || [ -z "$VALUE" ]; then
+                echo "ERROR: Plugin '$NAME' is missing required field: $field"
+                ERRORS=$((ERRORS + 1))
+              fi
+            done
+            # Validate source has required sub-fields
+            SOURCE=$(jq -r ".plugins[$i].source.source" "$CATALOG")
+            REPO=$(jq -r ".plugins[$i].source.repo" "$CATALOG")
+            if [ "$SOURCE" = "null" ] || [ -z "$SOURCE" ]; then
+              echo "ERROR: Plugin '$NAME' source is missing 'source' field"
+              ERRORS=$((ERRORS + 1))
+            fi
+            if [ "$REPO" = "null" ] || [ -z "$REPO" ]; then
+              echo "ERROR: Plugin '$NAME' source is missing 'repo' field"
+              ERRORS=$((ERRORS + 1))
+            fi
+          done
+
+          if [ "$ERRORS" -gt 0 ]; then
+            echo "Found $ERRORS structural error(s) in $CATALOG"
+            exit 1
+          fi
+          echo "marketplace.json structure is valid ($PLUGIN_COUNT plugins)"
+
+      - name: Check version consistency between marketplace.json and README.md
+        run: |
+          CATALOG=".claude-plugin/marketplace.json"
+          README="README.md"
+          ERRORS=0
+
+          PLUGIN_COUNT=$(jq '.plugins | length' "$CATALOG")
+          for i in $(seq 0 $((PLUGIN_COUNT - 1))); do
+            NAME=$(jq -r ".plugins[$i].name" "$CATALOG")
+            VERSION=$(jq -r ".plugins[$i].version" "$CATALOG")
+            if ! grep -q "| \[$NAME\]" "$README" 2>/dev/null && ! grep -q "| \`$NAME\`" "$README" 2>/dev/null; then
+              echo "ERROR: Plugin '$NAME' not found in $README"
+              ERRORS=$((ERRORS + 1))
+            elif ! grep "| \[$NAME\]" "$README" | grep -q "$VERSION"; then
+              README_VERSION=$(grep "| \[$NAME\]" "$README" | grep -oP '\d+\.\d+\.\d+' | head -1)
+              echo "ERROR: Version mismatch for '$NAME': marketplace.json=$VERSION, README.md=${README_VERSION:-not found}"
+              ERRORS=$((ERRORS + 1))
+            else
+              echo "OK: $NAME @ $VERSION"
+            fi
+          done
+
+          if [ "$ERRORS" -gt 0 ]; then
+            echo "Found $ERRORS version mismatch(es) between marketplace.json and README.md"
+            exit 1
+          fi
+          echo "All plugin versions are consistent"
