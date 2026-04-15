@@ -8,7 +8,7 @@ Personal [Claude Code](https://claude.ai/code) plugin marketplace for plugins ma
 | Plugin | Version | Description |
 |---|---|---|
 | [cli-ux-tester](https://github.com/ali5ter/claude-cli-ux-skill) | 3.1.0 | Expert UX evaluator for CLIs and developer APIs. Rates usability across 11 criteria with parallel evaluation agents and persistent cross-evaluation memory. |
-| [obsidian-project-documentation](https://github.com/ali5ter/obsidian-project-assistant) | 3.2.0 | Automatically documents technical projects in Obsidian vaults during Claude Code sessions |
+| [obsidian-project-documentation](https://github.com/ali5ter/obsidian-project-assistant) | 3.2.1 | Automatically documents technical projects in Obsidian vaults during Claude Code sessions |
 | [over-50s-health](https://github.com/ali5ter/over-50s-health-advisor) | 3.2.0 | Evidence-based health, fitness, nutrition, and longevity guidance for adults 50+ |
 | [pair-programmer](https://github.com/ali5ter/pair-programmer) | 1.1.0 | Graduated assistance framework to prevent skill atrophy when coding with AI |
 
