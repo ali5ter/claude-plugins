@@ -34,6 +34,7 @@ Versions are maintained in `.claude-plugin/marketplace.json` (source of truth) a
 
 | Plugin | Source Repo |
 |---|---|
+| `claude-workflow-skills` | `ali5ter/claude-workflow-skills` |
 | `cli-ux-tester` | `ali5ter/claude-cli-ux-skill` |
 | `obsidian-project-documentation` | `ali5ter/obsidian-project-assistant` |
 | `over-50s-health` | `ali5ter/over-50s-health-advisor` |
@@ -43,6 +44,7 @@ Versions are maintained in `.claude-plugin/marketplace.json` (source of truth) a
 
 ```text
 /plugin marketplace add ali5ter/claude-plugins
+/plugin install claude-workflow-skills@ali5ter
 /plugin install cli-ux-tester@ali5ter
 /plugin install obsidian-project-documentation@ali5ter
 /plugin install over-50s-health@ali5ter

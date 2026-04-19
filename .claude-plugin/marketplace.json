@@ -75,6 +75,30 @@
       "homepage": "https://github.com/ali5ter/pair-programmer"
     },
     {
+      "name": "claude-workflow-skills",
+      "description": "Common Claude Code workflow skills: promote changes through the full release cycle, audit plugins/skills/agents, and audit project standards compliance",
+      "version": "1.0.0",
+      "author": {
+        "name": "Alister Lewis-Bowen",
+        "url": "https://github.com/ali5ter"
+      },
+      "source": {
+        "source": "github",
+        "repo": "ali5ter/claude-workflow-skills"
+      },
+      "category": "productivity",
+      "license": "MIT",
+      "keywords": [
+        "workflow",
+        "promote",
+        "release",
+        "audit",
+        "standards",
+        "git"
+      ],
+      "homepage": "https://github.com/ali5ter/claude-workflow-skills"
+    },
+    {
       "name": "cli-ux-tester",
       "description": "Expert UX evaluator for CLIs and developer APIs. Rates usability across 11 criteria with parallel evaluation agents and persistent cross-evaluation memory.",
       "version": "3.1.0",
