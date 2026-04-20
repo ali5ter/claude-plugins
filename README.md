@@ -7,7 +7,7 @@ Personal [Claude Code](https://claude.ai/code) plugin marketplace for plugins ma
 
 | Plugin | Version | Description |
 |---|---|---|
-| [claude-workflow-skills](https://github.com/ali5ter/claude-workflow-skills) | 1.0.0 | Common Claude Code workflow skills: promote changes through the full release cycle, audit plugins/skills/agents, and audit project standards compliance |
+| [claude-workflow-skills](https://github.com/ali5ter/claude-workflow-skills) | 1.3.0 | Common Claude Code workflow skills: promote changes through the full release cycle, audit plugins/skills/agents, audit project standards compliance, analyse projects for improvements, and triage open GitHub issues |
 | [cli-ux-tester](https://github.com/ali5ter/claude-cli-ux-skill) | 3.1.0 | Expert UX evaluator for CLIs and developer APIs. Rates usability across 11 criteria with parallel evaluation agents and persistent cross-evaluation memory. |
 | [obsidian-project-documentation](https://github.com/ali5ter/obsidian-project-assistant) | 3.2.1 | Automatically documents technical projects in Obsidian vaults during Claude Code sessions |
 | [over-50s-health](https://github.com/ali5ter/over-50s-health-advisor) | 3.2.0 | Evidence-based health, fitness, nutrition, and longevity guidance for adults 50+ |
