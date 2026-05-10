@@ -33,7 +33,7 @@
     {
       "name": "obsidian-project-documentation",
       "description": "Automatically documents technical projects in Obsidian vaults during Claude Code sessions",
-      "version": "3.2.1",
+      "version": "3.2.4",
       "author": {
         "name": "Alister Lewis-Bowen",
         "url": "https://github.com/ali5ter"
@@ -103,7 +103,7 @@
     {
       "name": "cli-ux-tester",
       "description": "Expert UX evaluator for CLIs and developer APIs. Rates usability across 11 criteria with parallel evaluation agents and persistent cross-evaluation memory.",
-      "version": "3.1.0",
+      "version": "3.1.1",
       "author": {
         "name": "Alister Lewis-Bowen",
         "url": "https://github.com/ali5ter"
