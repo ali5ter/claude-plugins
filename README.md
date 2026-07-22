@@ -12,6 +12,7 @@ Personal [Claude Code](https://claude.ai/code) plugin marketplace for plugins ma
 | [obsidian-project-documentation](https://github.com/ali5ter/obsidian-project-assistant) | 3.2.4 | Automatically documents technical projects in Obsidian vaults during Claude Code sessions |
 | [over-50s-health](https://github.com/ali5ter/over-50s-health-advisor) | 3.2.1 | Evidence-based health, fitness, nutrition, and longevity guidance for adults 50+ |
 | [pair-programmer](https://github.com/ali5ter/pair-programmer) | 1.2.1 | Graduated assistance framework to prevent skill atrophy when coding with AI |
+| [tui-ux-tester](https://github.com/ali5ter/claude-tui-ux-skill) | 1.0.0 | Expert UX evaluator for terminal user interfaces (TUIs). Rates usability across 11 criteria using real captured recordings, with parallel evaluation agents and persistent cross-evaluation memory. |
 
 ## Installation
 
@@ -31,6 +32,7 @@ Personal [Claude Code](https://claude.ai/code) plugin marketplace for plugins ma
 /plugin install obsidian-project-documentation@ali5ter
 /plugin install over-50s-health@ali5ter
 /plugin install pair-programmer@ali5ter
+/plugin install tui-ux-tester@ali5ter
 ```
 
 ### Update a plugin
@@ -41,6 +43,7 @@ Personal [Claude Code](https://claude.ai/code) plugin marketplace for plugins ma
 /plugin update obsidian-project-documentation@ali5ter
 /plugin update over-50s-health@ali5ter
 /plugin update pair-programmer@ali5ter
+/plugin update tui-ux-tester@ali5ter
 ```
 
 ## Architecture

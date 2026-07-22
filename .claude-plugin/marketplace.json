@@ -125,6 +125,30 @@
         "usability"
       ],
       "homepage": "https://github.com/ali5ter/claude-cli-ux-skill"
+    },
+    {
+      "name": "tui-ux-tester",
+      "description": "Expert UX evaluator for terminal user interfaces (TUIs). Rates usability across 11 criteria using real captured recordings, with parallel evaluation agents and persistent cross-evaluation memory.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Alister Lewis-Bowen",
+        "url": "https://github.com/ali5ter"
+      },
+      "source": {
+        "source": "github",
+        "repo": "ali5ter/claude-tui-ux-skill"
+      },
+      "category": "productivity",
+      "license": "MIT",
+      "keywords": [
+        "TUI",
+        "UX",
+        "testing",
+        "terminal",
+        "usability",
+        "accessibility"
+      ],
+      "homepage": "https://github.com/ali5ter/claude-tui-ux-skill"
     }
   ]
 }
