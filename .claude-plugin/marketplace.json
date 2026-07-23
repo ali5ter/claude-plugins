@@ -128,8 +128,8 @@
     },
     {
       "name": "tui-ux-tester",
-      "description": "Expert UX evaluator for terminal user interfaces (TUIs). Rates usability across 11 criteria using real captured recordings, with parallel evaluation agents and persistent cross-evaluation memory.",
-      "version": "1.1.0",
+      "description": "Expert UX evaluator for terminal user interfaces (TUIs). Rates usability across 11 criteria from real captured or user-provided recordings, grounded in named design canons, with parallel evaluation agents, persistent memory, and a research mode that grows its TUI pattern library.",
+      "version": "1.1.1",
       "author": {
         "name": "Alister Lewis-Bowen",
         "url": "https://github.com/ali5ter"
