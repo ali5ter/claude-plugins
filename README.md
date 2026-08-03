@@ -12,7 +12,7 @@ Personal [Claude Code](https://claude.ai/code) plugin marketplace for plugins ma
 | [obsidian-project-documentation](https://github.com/ali5ter/obsidian-project-assistant) | 3.2.4 | Automatically documents technical projects in Obsidian vaults during Claude Code sessions |
 | [over-50s-health](https://github.com/ali5ter/over-50s-health-advisor) | 3.2.1 | Evidence-based health, fitness, nutrition, and longevity guidance for adults 50+ |
 | [pair-programmer](https://github.com/ali5ter/pair-programmer) | 1.2.1 | Graduated assistance framework to prevent skill atrophy when coding with AI |
-| [tui-ux-tester](https://github.com/ali5ter/claude-tui-ux-skill) | 1.1.2 | Expert UX evaluator for terminal user interfaces (TUIs). Rates usability across 11 criteria from real captured or user-provided recordings, grounded in named design canons (clig.dev, Nielsen heuristics, Charm, WCAG), with parallel evaluation agents, persistent memory, and a research mode that grows its TUI pattern library. |
+| [tui-ux-tester](https://github.com/ali5ter/claude-tui-ux-skill) | 1.1.3 | Expert UX evaluator for terminal user interfaces (TUIs). Rates usability across 11 criteria from real captured or user-provided recordings, grounded in named design canons (clig.dev, Nielsen heuristics, Charm, WCAG), with parallel evaluation agents, persistent memory, and a research mode that grows its TUI pattern library. |
 
 ## Installation
 
