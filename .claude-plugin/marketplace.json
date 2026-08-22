@@ -77,7 +77,7 @@
     {
       "name": "claude-workflow-skills",
       "description": "Common Claude Code workflow skills: promote changes through the full release cycle, audit plugins/skills/agents, audit project standards compliance, analyse projects for improvements, triage open GitHub issues, and review pull requests",
-      "version": "1.7.1",
+      "version": "1.7.2",
       "author": {
         "name": "Alister Lewis-Bowen",
         "url": "https://github.com/ali5ter"
